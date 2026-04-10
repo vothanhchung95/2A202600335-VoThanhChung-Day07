@@ -1,8 +1,8 @@
 # Báo Cáo Lab 7: Embedding & Vector Store
 
-**Họ tên:** [Tên sinh viên]
-**Nhóm:** [Tên nhóm]
-**Ngày:** [Ngày nộp]
+**Họ tên:** Võ Thanh Chung - 2A202600335
+**Nhóm:** Nhóm X1
+**Ngày:** 10-04-2026
 
 ---
 
