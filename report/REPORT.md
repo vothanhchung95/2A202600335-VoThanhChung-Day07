@@ -111,7 +111,7 @@ Chạy `ChunkingStrategyComparator().compare()` trên tài liệu python_intro.t
 | Thành viên            | Strategy                                      | Retrieval Score (/10) | Điểm mạnh | Điểm yếu |
 |-----------------------|-----------------------------------------------|----------------------|-----------|----------|
 | Võ Thanh Chung (Tôi)  | RecursiveChunker (250 chars)                  | 8                    | Giữ cấu trúc tự nhiên, chunk đều | Có thể cắt ngang câu dài |
-| Đỗ Thế Anh            | RecursiveChunker (250 chars)                  | 8.72                 | Giữ context, Q&A coherent, score cao | Số chunk nhiều, tốn memory |.
+| Đỗ Thế Anh| Recursive (250 chars) | 8.752 | Trích xuất chính xác, duy trì được thông tin quan trọng | Số chunk nhiều, dẫn đến dư thừa dữ liệu do overlap |
 | Hoàng Thị Thanh Tuyền | Recursive (350 chars)                         | 8.77 | Giữ context, Q&A coherent, score cao nhất | Số chunk nhiều (654), tốn memory |
 | Nguyễn Hồ Bảo Thiên   | FixedSizeChunker (chunk_size=100, overlap=20) | 8.56 | Xử lý nhanh | Dễ ngắt câu giữa chừng, gây mất ngữ nghĩa |
 | Dương Khoa Điềm       | RecursiveChunker  | 7.9 | Giữ được ngữ cảnh cụm Q&A tương đối ổn. | Tuỳ biến sai sót separator khiến một số câu dài bị đứt vụn, điểm chưa cao. |
